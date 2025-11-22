@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+        .card p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            background: #007bff;
+            color: #fff;
+            padding: 8px 14px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Library</h1>
+    <div class="container">
+        <!-- Sample cards - duplicate and modify for 25+ videos -->
+        <div class="card">
+            <h3>Add Client - Exerbotics</h3>
+            <p>This is a short description of video 1.</p>
+            <a href="https://app.guidde.com/share/playbooks/25cCgdRAwyput8oh97kx6c?origin=OQaUe0MHdARuuhQHyS1hXBzc3Fg2" target="_blank">Add Client</a>
+        </div>
+
+        <div class="card">
+            <h3>Houbspot - Message Clients from Deals</h3>
+            <p>This is a short description of video 2.</p>
+            <a href="https://app.guidde.com/share/playbooks/1z3oFkf1Y11kM2NAbSgjSz?origin=OQaUe0MHdARuuhQHyS1hXBzc3Fg2" target="_blank"> Message Clients</a>
+        </div>
+
+        <div class="card">
+            <h3>Mindbody - Appointments</h3>
+            <p>This is a short description of video 3.</p>
+            <a href="https://app.guidde.com/share/playbooks/2xDqgBGJ9JWuZiQ317tYAg?origin=OQaUe0MHdARuuhQHyS1hXBzc3Fg2" target="_blank">Setup Group Appointment </a>
+        </div>
+
+        <!-- Add more cards as needed -->
+    </div>
+</body>
+</html>
